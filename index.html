@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - MiMotor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #1f1f1f, #121212);
+      color: white;
+    }
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .project-card {
+      background-color: #2b2b2b;
+      border-radius: 10px;
+      padding: 20px;
+      height: 100%;
+    }
+    .project-card h5 {
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+      </ul>
+      <a href="mailto:maxi.m.aguero@hotmail.com" class="btn btn-primary">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1 class="display-4 fw-bold">Welcome {User}</h1>
+    <p class="lead">Este es un resumen de mis proyectos desarrollados con distintas tecnologías.</p>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="container py-5">
+    <h2 class="text-center mb-5">Mis Proyectos</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="project-card">
+          <h5>CRUD – Spring Boot</h5>
+          <p> Aplicacion Web con Back-End, basado en un registro de hongos. 
+            En el Front-End consumo desde la api de wikipedia. 
+            En el Back-End, desarrollé una API con Java y Spring Boot que se conecta a una base de datos MySQL, y permite ver, guardar, modificar, eliminar los hongos registrados por los usuarios.
+            Las tecnologías que usé son Java, Spring Boot, MySQL, HTML, CSS y JavaScript. </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <h5>CRUD – Visual Studio</h5>
+          <p>Aplicación web (en construccion ) que se desarrolla con ASP.NET Core MVC que implementa un sistema CRUD. 
+         </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <h5>Animación de pez – CSS</h5>
+          <p>Este proyecto consiste en una animación de un pez nadando, desarrollada únicamente utilizando HTML, CSS , JScript. La animación simula el movimiento fluido del pez en el agua mediante transformaciones, transiciones y keyframes de CSS. 
+           </p></div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <h5>Consumo de API + WPF - Visual Studio Code</h5>
+          <p>Aplicación de escritorio que consume una API REST sobre platos populares y muestra datos en tiempo real usando C# + WPF.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <h5>Canvas + WPF – Visual Studio Code</h5>
+          <p>Proyecto que utiliza canvas gráfico con WPF para representar visualmente objetos, inspirados en las formaciones de los equipos de futbol.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <h5>Menú de Juego – Godot</h5>
+          <p>Menú de juego interactivo desarrollado en Godot Engine con interfaz moderna y navegación fluida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contacto" class="bg-dark text-center text-white py-4 mt-5">
+    <p class="mb-0">Contacto: maxi.m.aguero@hotmail.com | LinkedIn: linkedin.com/in/maxi-aguero</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
